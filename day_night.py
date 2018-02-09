@@ -5,7 +5,7 @@
 
 
 # Imports
-import pygame
+import pygame 
 import random
 
 # Initialize game engine
@@ -59,7 +59,7 @@ while not done:
             elif event.key == pygame.K_l:
                 lights_on = not lights_on
             # google 'pygame key constants' for more keys
-                
+            
     # Game logic
     ''' move clouds '''
     for c in clouds:
